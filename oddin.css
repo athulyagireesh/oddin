@@ -9,30 +9,54 @@ body {
   background-size: cover;
 }
 
-.navbar {
+
+nav ul {
+  list-style: none;
   display: flex;
+  gap: 20px;
 }
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+nav ul li:hover .dropdown {
+  display: block;
+}
+
 
 .dropdown {
-  display: flex;
-  gap: 5px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #1a1a1a;
+  min-width: 200px;
+  z-index: 999;
 }
 
-.straightbar {
-  color: rgb(255, 191, 0);
+.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 13px;
 }
 
-.products {
-  color: white;
+.dropdown li a:hover {
+  background: #333;
 }
 
-.careers {
-  color: white;
+
+.lang {
+  font-size: 14px;
 }
 
-.about {
-  color: white;
-}
 
 .second {
   display: flex;
@@ -82,7 +106,30 @@ body {
 
 
 
+.navbar {
+  display: flex;
+}
 
+.dropdown {
+  display: flex;
+  gap: 5px;
+}
+
+.straightbar {
+  color: rgb(255, 191, 0);
+}
+
+.products {
+  color: white;
+}
+
+.careers {
+  color: white;
+}
+
+.about {
+  color: white;
+}
 
 
 
