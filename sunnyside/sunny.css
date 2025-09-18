@@ -1,3 +1,13 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.arrow{
+  text-align: center;
+  padding-bottom: 2px;
+}
+
 .first{
   background-image:url(./image-header.jpg);
   width:100%;
@@ -81,7 +91,8 @@
   justify-content: center;
 }
 
-/* Text cards */
+
+
 .text-card {
   background: #f9f9f9;
   padding: 40px;
@@ -104,10 +115,10 @@ p {
   margin-bottom: 20px;
 }
 
-/* Image cards */
+
 .image-card {
   background-size: cover;
-  background-position: center;
+  background-position:cover;
 }
 
 
@@ -121,19 +132,7 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-Responsive (mobile stack)
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-  .text-card {
-    padding: 20px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-}
+
 
 
 .header-container {
@@ -156,6 +155,7 @@ Responsive (mobile stack)
 
 .header-section.left {
   background-color: #add8e6;
+  text-align: center;
 }
 
 .header-section.right {
@@ -183,7 +183,7 @@ Responsive (mobile stack)
 }
 
 
-/* Testimonials Section */
+
 .testimonials-container {
     text-align: center;
     padding: 50px 20px;
@@ -235,24 +235,7 @@ Responsive (mobile stack)
 .testimonial-card .role {
     font-size: 0.9rem;
     color: #a9a9a9;
-    margin-bottom: 0;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .header-container {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .header-section {
-        height: 40vh;
-    }
-
-    .testimonial-row {
-        flex-direction: column;
-        align-items: center;
-    }
+    margin-bottom: 0px;
 }
 
 
@@ -260,20 +243,19 @@ Responsive (mobile stack)
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    height: 60vh;
+    height: 80vh;
 }
 
 .card {
-    flex: 1 1 25%;
+    flex: 25%;
     background-size: cover;
     background-position: center;
     min-height: 200px;
 }
 
-/* Main Content Section */
 .main-content {
     background-color: #92d4c4;
-    padding: 50px 20px;
+    padding: 50px 50px;
     text-align: center;
     flex-grow: 1;
     display: flex;
@@ -284,7 +266,7 @@ Responsive (mobile stack)
 
 .brand-name {
     font-family: 'Fraunces', serif;
-    font-size: 2.5rem;
+    font-size: 1 rem;
     color: #2c7566;
     margin-bottom: 30px;
     letter-spacing: -1px;
@@ -292,7 +274,7 @@ Responsive (mobile stack)
 
 .main-nav ul {
     list-style: none;
-    padding: 0;
+    padding:0;
     margin: 0;
     display: flex;
     gap: 30px;
@@ -306,15 +288,10 @@ Responsive (mobile stack)
     transition: color 0.3s ease;
 }
 
-.main-nav a:hover,
-.main-nav a.active {
-    color: white;
-}
 
-/* Footer Section */
 .social-media {
     background-color: #92d4c4;
-    padding: 30px 20px;
+    padding: 40px 50px;
     text-align: center;
 }
 
@@ -322,33 +299,10 @@ Responsive (mobile stack)
     color: #2c7566;
     font-size: 1.5rem;
     margin: 0 15px;
-    transition: color 0.3s ease;
+    /* transition: color 0.3s ease; */
 }
 
-.social-icons a:hover {
+/* .social-icons a:hover {
     color: white;
 }
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .gallery {
-        height: auto;
-    }
-    .card {
-        flex: 1 1 50%;
-    }
-}
-
-@media (max-width: 480px) {
-    .card {
-        flex: 1 1 100%;
-    }
-    .main-nav ul {
-        flex-direction: column;
-        gap: 15px;
-    }
-}
-
-
-
-
+ */
