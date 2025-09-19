@@ -3,137 +3,151 @@
   padding:10px;
 }
 
+.firstpage{
+  width:100%;
+  height:100vh;
+}
 
 body {
   background-image: url("./background.webp");
-  background-size: cover;
+  background-size:cover;
 }
 
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li {
-  position: relative;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 14px;
-}
-
-nav ul li:hover .dropdown {
-  display: block;
-}
-
-
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #1a1a1a;
-  min-width: 200px;
-  z-index: 999;
-}
-
-.dropdown li a {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  font-size: 13px;
-}
-
-.dropdown li a:hover {
-  background: #333;
-}
-
-
-.lang {
-  font-size: 14px;
-}
-
-
-.second {
-  display: flex;
-  justify-content: space-between;
-}
-
-.secondpara {
-  padding-top: 100px;
-  display: inline;
-}
-
-.mobile {
-  text-align: end;
-}
-
-.trulypara {
-  color: white;
-  font-size: x-large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 0%;
-}
-
-.heading {
-  color: white;
-  font-size: 200%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 200%;
-}
-
-.genpara {
-  color: gray;
-  font-size: x-large;
-  line-height: 190%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-.reqademo button {
-  background-color: rgb(255, 191, 0);
-  width: 200px;
-  height: 50px;
-  border: none;
-  font-size: medium;
-}
-
-
-
-
-
-.navbar {
-  display: flex;
-}
-
-.dropdown {
+.logo{
+  padding:5px;
   display: flex;
   gap: 5px;
+  justify-items: left;
+  align-items: start;
 }
 
-.straightbar {
-  color: rgb(255, 191, 0);
+.straightline{
+  color: goldenrod;
+}
+.navbar{
+  width:100%;
+  height:20vh;
+  display:flex;
+  justify-content: space-between;
+
+}
+.products{
+  padding:20px;
+  display: flex;
+  gap: 5px;
+  justify-items: left;
+  align-items: start; 
 }
 
-.products {
+.content{
+  padding:20px;
+  display: flex;
+  gap: 5px;
+  justify-items: left;
+  align-items: start;
+}
+
+.meetus{
+   padding:20px;
+  display: flex;
+  gap: 5px;
+  justify-items: left;
+  align-items: start;
+}
+
+
+.career{
+  padding:25px;
+  display: flex;
+  gap: 5px;
+  justify-items: left;
+  align-items: start;
   color: white;
 }
 
-.careers {
-  color: white;
+.about{
+  padding:25px;
+  display: flex;
+  gap: 5px;
+  justify-items: left;
+  align-items: start;
+  color:white;
 }
 
-.about {
-  color: white;
+.language{
+  padding:20px;
+  display: flex;
+  gap: 30px;
+  justify-items: left;
+  align-items: start;
+  color:white;
 }
 
+.para{
+  padding:1px;
+}
 
+.trulypara{
+  padding-left: 1px;
+  color: white;
+  
+}
 
+.heading{
+  padding:1px;
+  color: white;
+  font-size:xx-large;
+  font-family:sans-serif ;
+  font-weight: bolder;
+}
 
+.engage{
+  padding:1px;;
+  color:white;
+}
 
-Tools
+.reqdemo{
+  padding:5px;
+}
+
+.reqdemo button {
+  background-color: darkgoldenrod;
+}
+
+ .mobile {
+  text-align:end;
+  position:relative;
+  top: -400px;
+ }
+
+ .second{
+  width:100%;
+  height:25vh;
+  padding-bottom:0;
+  background-color:white;
+ }
+
+.global h2{
+  text-align: center;
+  background-color: white;
+}
+
+.img{
+    display: flex;
+    gap:1px;
+}
+
+ .third{
+  background-image: url('./third\ bg.webp');
+   width:100%;
+  height:100vh; 
+}
+
+.esports h2{
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  font-size: xx-large;
+  font-weight: 900;
+} 
 
