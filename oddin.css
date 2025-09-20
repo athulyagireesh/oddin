@@ -139,11 +139,12 @@ body {
 
  .third{
   background-image: url('./third\ bg.webp');
-   width:100%;
+  background-size: cover;
+  width:100%;
   height:100vh; 
 }
 
-.esports h2{
+.heading h2{
   color: white;
   text-align: center;
   padding-top: 60px;
@@ -160,8 +161,8 @@ body {
 }
 
 
-.card{
-  width: 300px;
+.card1 h1{
+  width: 250px;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -170,5 +171,34 @@ body {
   border: 2px solid black;
 }
 
+.card2 h1{
+  width: 250px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.card3 h1{
+  width: 250px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.card4 h1{
+  width: 250px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  align-items: center;
+  border: 2px solid black;
+}
 
 
